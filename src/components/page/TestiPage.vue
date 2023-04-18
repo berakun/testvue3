@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-10 grid grid-rows-1 grid-flow-col gap-4 flex space-x-[140px]">
+  <div class="container mx-auto py-10 grid grid-rows-1 grid-flow-col gap-5">
     <div class="flex items-center">
       <img :src="data.gambar" alt="Gambar" class="mr-4 w-48 h-48">
       <p class="text-sm italic">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
