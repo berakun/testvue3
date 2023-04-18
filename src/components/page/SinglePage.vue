@@ -5,7 +5,7 @@ const videoLink = 'https://botmaster-files.s3.ap-southeast-1.amazonaws.com/Conte
 </script>
 
 <template>
-    <div class="bg-white pb-[60px]">
+    <div class="bg-white pb-[60px] pt-[100px]">
         <div class="container mx-auto flex space-x-10 grid grid-col-2 grid-flow-col font-black">
             <div class="text-left text-5xl font-bold text-black">
                 <div>Lorem Ipsum</div>

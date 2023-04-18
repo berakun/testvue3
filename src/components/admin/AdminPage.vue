@@ -1,5 +1,5 @@
 <template>
-    <div class="relative overflow-x-auto w-screen py-10 px-10">
+    <div class="relative container mx-auto overflow-x-auto py-10">
 
         <div class="mb-4">
             <input type="text" v-model="search" placeholder="Search by product name, color, or category"
@@ -67,7 +67,7 @@ export default {
         };
     },
     async mounted() {
-        const response = await this.$gorilla.get('/');
+        const response = await this.$gorilla('/');
         this.users = response.data.data;
         console.log(response);
     },
